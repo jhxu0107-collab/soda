@@ -1,0 +1,73 @@
+Starting analysis pipeline
+Loading education/income dataset from data/raw/education_income.csv
+Rows loaded: 95
+Columns loaded: 5
+Saving raw data copy (unchanged)
+Cleaning education/income data
+Rows after cleaning: 95
+Rows with finite log(income): 95
+Saving processed data
+Fitting Model 1: income ~ education
+Fitting Model 2: income ~ education + education^2
+Fitting Model 3: log(income) ~ education (finite log income rows only)
+Saving regression summaries to outputs/tables/
+Saving session information
+Snapshotting dependencies to requirements.txt
+Analysis pipeline completed successfully
+Fitting Model 1: income ~ education
+Fitting Model 2: income ~ education + education^2
+Fitting Model 3: log(income) ~ education (finite log income rows only)
+Saving regression summaries to outputs/tables/
+Saving session information
+Snapshotting dependencies to requirements.txt
+Analysis pipeline completed successfully
+Rows loaded: 95
+Columns loaded: 5
+Saving raw data copy (unchanged)
+Cleaning education/income data
+Rows after cleaning: 95
+Rows with finite log(income): 95
+Saving processed data
+Fitting Model 1: income ~ education
+Fitting Model 2: income ~ education + education^2
+Fitting Model 3: log(income) ~ education (finite log income rows only)
+Saving regression summaries to outputs/tables/
+Saving session information
+Snapshotting dependencies to requirements.txt
+Analysis pipeline completed successfully
+/Users/a75700/Desktop/soda501/soda_501/02_reproducibility/outputs/tables/
+Saving session information
+Snapshotting dependencies to requirements.txt
+Analysis pipeline completed successfully
+Fitting Model 1: income ~ education
+Fitting Model 2: income ~ education + education^2
+Fitting Model 3: log(income) ~ education (finite log income rows only)
+/Users/a75700/Desktop/soda501/soda_501/02_reproducibility/outputs/tables
+Fitting Model 2: income ~ education + education^2
+Fitting Model 3: log(income) ~ education (finite log income rows only)
+/Users/a75700/Desktop/soda501/soda_501/02_reproducibility/outputs/tables
+Saving session information
+Snapshotting dependencies to requirements.txt
+Analysis pipeline completed successfully
+2026-01-25 18:14:19 | INFO | Starting analysis pipeline
+2026-01-25 18:14:19 | INFO | Loading education/income dataset from data_path
+2026-01-25 18:14:19 | INFO | Rows loaded: 95
+2026-01-25 18:14:19 | INFO | Columns loaded: 5
+2026-01-25 18:14:19 | INFO | Saving raw data copy (unchanged)
+2026-01-25 18:14:19 | INFO | Cleaning education/income data
+2026-01-25 18:14:19 | INFO | Rows after cleaning: 95
+2026-01-25 18:14:19 | INFO | Rows with finite log(income): 95
+2026-01-25 18:14:19 | INFO | Saving processed data
+2026-01-25 18:14:19 | INFO | Fitting Model 1: income ~ education
+2026-01-25 18:14:19 | INFO | Fitting Model 2: income ~ education + education^2
+2026-01-25 18:14:19 | INFO | Plot Model 2: income ~ education + education^2
+2026-01-25 18:14:19 | INFO | Fitting Model 3: log(income) ~ education (finite log income rows only)
+2026-01-25 18:14:19 | INFO | Plot Model 3: income ~ education + education^2
+2026-01-25 18:14:19 | INFO | Saving regression summaries to outputs/tables/
+2026-01-25 18:14:19 | INFO | Saved plot to output.figures
+2026-01-25 18:14:19 | INFO | Saved plot to output.figures
+2026-01-25 18:14:19 | INFO | Saved plot to output.figures
+2026-01-25 18:14:19 | INFO | Saved regression coefficient table to /Users/a75700/Desktop/soda_501/soda_501/02_reproducibility/outputs/tables/regression_coefficients.csv
+2026-01-25 18:14:19 | INFO | Saving session information
+2026-01-25 18:14:19 | INFO | Snapshotting dependencies to requirements.txt
+2026-01-25 18:14:19 | INFO | Analysis pipeline completed successfully

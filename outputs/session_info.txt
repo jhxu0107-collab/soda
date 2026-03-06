@@ -1,0 +1,4 @@
+Platform module file: /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/platform.py
+Python executable: /Users/a75700/PycharmProjects/gazeextract/.venv/bin/python
+Python version: 3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]
+OS / platform: macOS-15.6-arm64-arm-64bit-Mach-O
