@@ -1,0 +1,4 @@
+.DS_Store
+MovieSummaries_extracted/
+04_text_as_data/MovieSummaries.tar
+*.tar
